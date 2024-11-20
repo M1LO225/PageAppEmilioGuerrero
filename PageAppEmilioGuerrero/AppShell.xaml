@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PageAppEmilioGuerrero.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PageAppEmilioGuerrero"
+    Title="PageAppEmilioGuerrero">
+
+    <!--
+    <FlyoutItem Title="Mainpage">
+        <ShellContent
+            Title="Mainpage"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Pagina 1">
+        <ShellContent
+        Title="Pagina 1"
+        ContentTemplate="{DataTemplate local:Pagina1}"
+        Route="Pagina 1" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Pagina 2">
+        <ShellContent
+        Title="Pagina 2"
+        ContentTemplate="{DataTemplate local:Pagina2}"
+        Route="Pagina 2" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Pagina 3">
+        <ShellContent
+        Title="Pagina 3"
+        ContentTemplate="{DataTemplate local:Pagina3}"
+        Route="Pagina 3" />
+    </FlyoutItem> -->
+
+
+    <TabBar>
+        <Tab Title="Home" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Home"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
+        </Tab>
+
+        <Tab Title="Pagina 1" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 1"
+                ContentTemplate="{DataTemplate local:Pagina1}"
+                Route="Pagina1" />
+        </Tab>
+
+        <Tab Title="Pagina 2" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 2"
+                ContentTemplate="{DataTemplate local:Pagina2}"
+                Route="Pagina2" />
+        </Tab>
+
+        <Tab Title="Pagina 3" Icon="dotnet_bot.png">
+            <ShellContent
+                Title="Pagina 3"
+                ContentTemplate="{DataTemplate local:Pagina3}"
+                Route="Pagina3" />
+        </Tab>
+
+    </TabBar>
+</Shell>
